@@ -1,0 +1,21 @@
+#todoList > ul {
+	list-style-position: inside;
+	padding: 0px;
+	padding-left: 10px;
+}
+
+.todoItem {
+	list-style: none;
+}
+
+.todoItem > a {
+	position: relative;
+	left: -0.25em;
+	color: red;
+	cursor: pointer;
+}
+
+.todoItem > span {
+	position: relative;
+	left: 0.5em;
+}
